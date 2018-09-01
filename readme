@@ -1,0 +1,34 @@
+Attached are my solutions to the two problems given.
+
+Please Note that I had some doubts on what was expected in problem one:
+
+1) It is asked to return the correct change. But a correct change can be
+
+or cannot be optimal in terms of numbers of coins.
+
+2) Due to this open ended nature I came up with two solutions :-
+
+The first one uses a Greedy approach and give a correct change in terms of
+given coins but the solution may or may not be optimal. On the bright side
+it solves the problem in O(1) time and space ( O(1) not theoretically but a practical
+approximation for small inputs).
+
+The second approach used dynamic programming to achieve an optimal and
+Correct solution but in doing so trades of efficiency in terms of both
+Time and space.
+
+The output is a list with 
+
+First - the number of 25 coins
+Second - the number of 10 coins
+Third - the number of 5 coins
+Fourth - the number of 1 coins
+
+-------------------------------------------------------------
+
+How to run with different test cases?
+
+For the first problem just change the amount in the main function.
+
+For the second problem just change the stock prices array.
+
